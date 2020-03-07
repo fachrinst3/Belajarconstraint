@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="867dp"
+        android:layout_height="93dp"
+        android:contentDescription="@android:string/VideoView_error_button"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/ttl"
+        style="@style/format"
+        android:layout_width="209dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/ttl"
+        app:layout_constraintStart_toEndOf="@+id/nama"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="146dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/nama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poster" />
+
+    <TextView
+        android:id="@+id/nama"
+        style="@style/format"
+        android:layout_width="245dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/nama"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/poster"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/hobby"
+        style="@style/format"
+        android:layout_width="211dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/hobby"
+        app:layout_constraintStart_toEndOf="@+id/nama"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tentang"
+        style="@style/format"
+        android:layout_width="149dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/artifika"
+        android:text="@string/tentang"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poster" />
+
+    <TextView
+        android:id="@+id/isibio"
+        style="@style/format"
+        android:layout_width="711dp"
+        android:layout_height="201dp"
+        android:layout_marginBottom="16dp"
+        android:autoLink="web"
+        android:fontFamily="@font/artifika"
+        android:text="@string/isibio"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/likebutton"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:contentDescription="@android:string/VideoView_error_button"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/heart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

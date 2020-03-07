@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Belajarconstraint</string>
+    <string name="nama">Syahnanda Fachri Nst</string>
+    <string name="tentang">Tentang saya :</string>
+    <string name="ttl">Tgl lahir : 13-11-1999</string>
+    <string name="hobby">Hobi : Tidur</string>
+    <string name="isibio">Saya adalah mahasiswa STMIK AKAKOM yogyakarta. Saya pendiam, dan introvert,
+                          Perilaku orang dengan kepribadian ini terkadang suka disalahartikan sebagai tanda-tanda depresi. Namun sebaiknya jangan terlalu cepat mengambil kesimpulan.
+                          Yang perlu dipahami adalah introversion bukanlah suatu respon terhadap rangsangan yang terjadi dari luar,
+                          tetapi merupakan suatu tipe kepribadian.</string>
+</resources>
